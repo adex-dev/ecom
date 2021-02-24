@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document - vertical-1 */
+html, body {display: inline-block;
+	height: 100%;
+}
+html, body, h1 {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #4b0082eb;
+}
+aside, section {
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 1%;
+}
+aside { 
+	background: #f1f1f1;
+	float: left;
+	height: 100%;
+	position: fixed;
+	text-align: center;
+	width: 20%;
+}
+section {
+	float: right;
+	width: 80%;
+}
+footer {
+	bottom: 0;
+	left: 0;
+	padding: 5% 0;
+	position: absolute;
+	width: 100%;
+}
